@@ -9,7 +9,7 @@ output:
 
 In this homework we are going to explore the Gapminder dataset to better understand how to familiarize yourself with new datasets, and to test drive the functionality of the tidyverse package. First let's begin by loading the tidyverse package and gapminder data: 
 
-```{r LoadPackages, message=FALSE}
+```{r LoadPackages, message=FALSE, warning=FALSE}
 library(tidyverse)
 library(gapminder)
 library(gridExtra)
@@ -141,7 +141,7 @@ gapminder %>% filter(continent=="Americas") %>%
 
 From this, we can see that yes, each line of data can be attributed to a single country. This means that most countries in the Americas have seen steady growths in both population size and life expectancy. 
 
-##Extra
+## Extra
 
 Evaluating the provided chunk of code:
 

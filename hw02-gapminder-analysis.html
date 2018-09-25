@@ -130,15 +130,9 @@ $(document).ready(function () {
 
 
 <p>In this homework we are going to explore the Gapminder dataset to better understand how to familiarize yourself with new datasets, and to test drive the functionality of the tidyverse package. First let’s begin by loading the tidyverse package and gapminder data:</p>
-<pre class="r"><code>suppressPackageStartupMessages(library(tidyverse))
+<pre class="r"><code>library(tidyverse)
 library(gapminder)
-library(knitr)
 library(gridExtra)</code></pre>
-<pre><code>## 
-## Attaching package: 'gridExtra'</code></pre>
-<pre><code>## The following object is masked from 'package:dplyr':
-## 
-##     combine</code></pre>
 <p>To explore the data, let’s first examine what gapminder is and how it’s represented and stored in R:</p>
 <pre class="r"><code>typeof(gapminder)</code></pre>
 <pre><code>## [1] &quot;list&quot;</code></pre>

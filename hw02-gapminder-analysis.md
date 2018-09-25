@@ -11,21 +11,9 @@ In this homework we are going to explore the Gapminder dataset to better underst
 
 
 ```r
-suppressPackageStartupMessages(library(tidyverse))
+library(tidyverse)
 library(gapminder)
-library(knitr)
 library(gridExtra)
-```
-
-```
-## 
-## Attaching package: 'gridExtra'
-```
-
-```
-## The following object is masked from 'package:dplyr':
-## 
-##     combine
 ```
 
 To explore the data, let's first examine what gapminder is and how it's represented and stored in R:
@@ -239,7 +227,7 @@ gapminder %>% filter(continent=="Americas") %>%
 
 From this, we can see that yes, each line of data can be attributed to a single country. This means that most countries in the Americas have seen steady growths in both population size and life expectancy. 
 
-##Extra
+## Extra
 
 Evaluating the provided chunk of code:
 
